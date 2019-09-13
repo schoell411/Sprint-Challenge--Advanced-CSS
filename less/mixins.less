@@ -1,4 +1,5 @@
 // Mixins Here
+
 .page-margin {
     margin: 0 10rem;
 }
@@ -13,7 +14,12 @@
     color: @main-font-color;
 }
 
+.mobile-btn {
+    width: 100%;
+}
+
 // parametric mixins
+
 .btn-style(@bg-color, @fnt-color,@h, @w){
     color: @fnt-color;
     background-color: @bg-color;
@@ -30,7 +36,5 @@
     }
 }
 
-.mobile-btn {
-    width: 100%;
-}
+
 

@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive layout will incorporate hard coded pixels, while also including breakpoints for different devices, making it able to accommodate more devices than a fixed layout, but still lacking the ability to accommodate many devices out there.
+
+A responsive layout, however, uses more responsive units, such as rem, as well as media query breakpoints to allow it to function across thousands of different devices.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first design is done with a mobile device as the intended device. This will involve a layout that looks best on a mobile device, while including media queries for desktop devices. 
+
+Desktop first design will be the opposite, with a layout intended for a desktop experience, and media queries for mobile devices.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It will change the default font-size to 10px, making each rem unit equal to 10px instead of 16px. This makes using rem units to style the page much easier, allowing us to multiply each rem unit by 10 instead of 16.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+It is an easier way to write CSS code, allowing you to nest rules within elements, and then have the rules compiled into CSS syntax using LESS. This allows you to write your html and CSS in generally the same syntax. It also allows for variables, mixins, escapes, and imports.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept is imports. Being able to break up the styling into as many different files as needed allows for way less complicated files, with less lines of code per file.
+
+The concept giving the most trouble are parametric mixins. I understand them generally, but sometimes remembering and using the different parameters that are set can be difficult.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
