@@ -316,7 +316,6 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk {
-    border: 1px solid red;
     flex-direction: column-reverse;
     justify-content: center;
     margin: 0;
