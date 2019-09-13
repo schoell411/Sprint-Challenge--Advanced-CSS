@@ -191,8 +191,14 @@ p {
 }
 .nav nav a {
   text-decoration: none;
-  color: black;
   padding: 10px;
+}
+.nav h1,
+.nav nav a {
+  color: white;
+  animation-name: font-appear;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
 }
 footer {
   color: #22283B;
@@ -326,5 +332,13 @@ footer {
   .home .walk .walk-text {
     width: 95%;
     margin: 0 1.5rem 3rem 1.5rem;
+  }
+}
+@keyframes font-appear {
+  from {
+    color: white;
+  }
+  to {
+    color: #5E6164;
   }
 }
