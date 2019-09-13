@@ -2,6 +2,18 @@
 .page-margin {
     margin: 0 10rem;
 }
+
+.header-font-style {
+    font-family: 'Russo One', sans-serif;
+    color: @header-font-color;
+}
+
+.body-font-style{
+    font-family: 'Ubuntu', sans-serif;
+    color: @main-font-color;
+}
+
+// parametric mixins
 .btn-style(@bg-color, @fnt-color,@h, @w){
     color: @fnt-color;
     background-color: @bg-color;
@@ -12,4 +24,13 @@
     display: flex;
     justify-content: center;
     align-items: center; 
+    &:hover{
+        color: @bg-color;
+        background-color: @fnt-color;
+    }
 }
+
+.mobile-btn {
+    width: 100%;
+}
+
