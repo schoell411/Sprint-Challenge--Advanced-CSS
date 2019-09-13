@@ -192,6 +192,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 10rem;
 }
 .home .intro {
   margin: 0 10rem;
@@ -216,14 +217,16 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
-.home .visit-planets {
+.home .middle-content {
   margin: 0 10rem;
+}
+.home .middle-content .visit-planets {
   padding: 15px;
 }
-.home .visit-planets h3 {
+.home .middle-content .visit-planets h3 {
   margin-top: 11px;
 }
-.home .visit-planets p {
+.home .middle-content .visit-planets p {
   margin-top: 13px;
 }
 .home .walk {
