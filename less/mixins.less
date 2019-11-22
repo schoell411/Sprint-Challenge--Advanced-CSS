@@ -1,1 +1,40 @@
 // Mixins Here
+
+.page-margin {
+    margin: 0 10rem;
+}
+
+.header-font-style {
+    font-family: 'Russo One', sans-serif;
+    color: @header-font-color;
+}
+
+.body-font-style{
+    font-family: 'Ubuntu', sans-serif;
+    color: @main-font-color;
+}
+
+.mobile-btn {
+    width: 100%;
+}
+
+// parametric mixins
+
+.btn-style(@bg-color, @fnt-color,@h, @w){
+    color: @fnt-color;
+    background-color: @bg-color;
+    height: @h;
+    width: @w;
+    border-radius: 10px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    &:hover{
+        color: @bg-color;
+        background-color: @fnt-color;
+    }
+}
+
+
+
